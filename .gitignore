@@ -1,8 +1,12 @@
-#IGNORE
+# Ignore all files
 *
 
-#EXCEPT
+# Except for specific file types and Makefile
 !.gitignore
-!.*c
-!.*md
+!*.c
+!*.md
 !Makefile
+
+# Exclude directories explicitly to avoid tracking all files within them
+!*/
+
