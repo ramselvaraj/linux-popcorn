@@ -1,0 +1,8 @@
+#IGNORE
+.
+
+#EXCEPT
+!.gitignore
+!.*c
+!.*md
+!Makefile
